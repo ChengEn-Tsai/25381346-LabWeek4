@@ -2,17 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Test : MonoBehaviour
+public class LoadAssets : MonoBehaviour
 {
-    public int n = 0;
+    public GameObject redObj;
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Test");
+        //redObj.transform.position = new Vector3()
     }
 
     // Update is called once per frame
     void Update()
     {
+        
     }
 }
