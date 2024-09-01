@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 8604822020279369835}
   - component: {fileID: 446716397999993383}
   - component: {fileID: 6786686434933232044}
-  - component: {fileID: 6487420480277083836}
+  - component: {fileID: 3809457798035202975}
   m_Layer: 0
   m_Name: BluePrefab
-  m_TagString: Untagged
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -108,7 +108,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &6487420480277083836
+--- !u!114 &3809457798035202975
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -120,3 +120,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 806caf59a6aea9a4cb1e1bc466a3fb06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rend: {fileID: 446716397999993383}
